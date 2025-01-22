@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg,#54caf2, #4f93fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 50px;
+    width: 50%;
+    max-width: 250px;
+    height: 100%;
+    max-height: 425px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+
+.title2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.title3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc; /* Menambahkan garis bawah */
+    display: inline-block; /* Agar garis mengikuti lebar teks */
+    padding-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.illustration img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.buttonout {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 100%;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 16px;
+    color: #1877f2;
+    padding: 5px 20px;
+    padding-left: 0px;
+    margin-bottom: 17px;
+    margin-left: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button2:hover {
+    background-color: #d5dde6;
+    color: white;
+    border-color: #d5dde6;
+}
+
+
+.button2 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.button2 {
+    border-color: #1877f2;
+}
+
+.button2.facebook {
+    background-color: #4285f4;
+    color: white;
+}
+
+.button2.mail {
+    background-color: white;
+    color: #1877f2;
+}
+
+.button2.mail:hover {
+    border-color: #1877f2;
+    background-color: #d5dde6;
+    color: black;
+}
+
+.button2.facebook:hover {
+    background-color: #0d427a;
+}
+
+.button2.facebook img {
+    width: 25px;
+    height: 25px;
+}
+
+.button2.google {
+    border-color: #eeebeb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+.button2.google img {
+    filter: none;
+}
+
+footer {
+
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.input-wrapper img {
+    opacity: 30%;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: none;
+    outline: none;
+    flex: 1;
+    background: none;
+    font-size: 16px;
+}
+
+.signup-btn {
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.signup-btn:hover {
+    background: #0056b3;
+}
+
+.terms {
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.terms a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+#terms {
+    margin-right: 5px;
+}
+
+.toggle-password {
+    cursor: pointer;
+}
+
+.toggle-password img {
+    margin-left: -15px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

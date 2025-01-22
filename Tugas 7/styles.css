@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 60px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background: blueviolet;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-table {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.header-title {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    background: #00c3ffe7;
+    color: white;
+    border-radius: 5px;
+}
+
+.login-form .input-group {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    flex-basis: 30%;
+    font-weight: bold;
+}
+
+.login-form input {
+    flex-basis: 65%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    transform: translateY(5%);
+    cursor: pointer;
+}
+
+.toggle-password img {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background: #00c3ffe7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00aaff;
+}
+
+.input-group-position {
+    position: relative;
+    width: 100%;
+}

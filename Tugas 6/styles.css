@@ -1,0 +1,116 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+/* Navbar Styles */
+.navbar {
+    background-color: #5ecc42;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    gap: 100px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Hamburger tetap */
+.hamburger {
+    position: absolute;
+    left: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+        /* Sidebar Styles */
+        .sidebar {
+            background-color: rgb(147, 95, 207);
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 60px;
+            transition: 0.3s;
+            z-index: 900;
+        }
+
+        .sidebar.collapsed {
+            left: -250px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 1rem;
+        }
+
+        .sidebar ul li {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .sidebar ul li:hover {
+            background-color: #c0ddfa;
+        }
+
+        /* Main Content*/
+        .main-content {
+            margin-left: 250px;
+            padding: 80px 20px 20px;
+            transition: 0.3s;
+            min-height: 100vh;
+        }
+
+        .main-content.expanded {
+            margin-left: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .sidebar {
+                left: -250px;
+            }
+
+            .sidebar.active {
+                left: 0;
+            }
+
+            .main-content {
+                margin-left: 0;
+            }
+        }
+    

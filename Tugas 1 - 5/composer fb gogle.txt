@@ -1,0 +1,2 @@
+composer require google/apiclient
+composer require facebook/graph-sdk
